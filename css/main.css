@@ -18,6 +18,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h2{border-left: 10px solid #1fa6e6; 
+    background-color: #BED4EB;}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
