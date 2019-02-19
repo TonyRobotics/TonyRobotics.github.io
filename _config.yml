@@ -1,0 +1,18 @@
+# Site settings
+title: 人工智能精英训练营——玩转机器人小车
+email: info@tonyrobotics.com
+description: "Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition."
+baseurl: ""
+url: "http://tonyrobotics.github.io/ros2019"
+github_username:  tonyrobotics
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+

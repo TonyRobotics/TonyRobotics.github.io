@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>人工智能精英训练营——玩转机器人小车</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition.">
+    <link rel="canonical" href="http://localhost:4000/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap title-wrap">
+    <a class="site-title" href="/">人工智能精英训练营——玩转机器人小车</a>
+  </div>
+
+  <!-- <div id="header">    
+    <div class='text-center'>
+      <h5>       
+        <a href='http://cs231n.stanford.edu/2015'>[Winter 2015]</a>
+        <a href='http://cs231n.stanford.edu/2016'>[Winter 2016]</a>
+        <a href='http://cs231n.stanford.edu/2017'>[Spring 2017]</a>
+      </h5>
+    </div>
+    <div style="clear:both;"></div>
+  </div> -->   
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1></h1>
+  </header>
+
+  <article class="post-content">
+  <ul>
+  <li><a href="#intro">课程介绍</a></li>
+  <li><a href="#people">适用人群</a></li>
+  <li><a href="#prepare">预备知识</a></li>
+  <li><a href="#goals">学习目标</a></li>
+  <li><a href="#syllabus">课程大纲</a></li>
+  <li><a href="#contact">培训安排</a></li>
+</ul>
+
+<p><a name="intro"></a></p>
+
+<h2 id="课程介绍">课程介绍</h2>
+
+<p>本课程旨在帮助您学习机器人操作系统（ Robot Operating System，以下简称ROS）。课程注重知识点的连贯性，从ROS安装开始，深入讲解了ROS C++客户端，tf，仿真，传感器，以及自主导航，建图。</p>
+
+<p>课程注重实战操作，通过在移动机器人开发学习平台 Abel 上的一系列的开发工作，使学生能够学习和实践移动机器人相关的内容，包含网络环境搭建、里程计构建、 SLAM、建图、定位、导航、
+避障等。</p>
+
+<p>课程注重机器人的理论知识的讲解，穿插了多个实例及相关机器人学知识，手把手教您玩转二轮差速小车底盘，并最终通过本课程的学习。学习完本课程后，您可以系统全面的讲解了机器人操作系统相关知识，并可以上手开发小车底盘、机械臂等机器人。</p>
+
+<p><a name="goals"></a></p>
+
+<h2 id="课程目标">课程目标</h2>
+
+<ul>
+  <li>系统性全面性讲解ROS基础知识</li>
+  <li>熟悉Ｌinux操作系统下代码的编写、编译和运行</li>
+  <li>从零开始学习机器人开发的流程</li>
+  <li>了解传感器、二轮差速小车的控制</li>
+  <li>了解小车里程计建模</li>
+  <li>讲述机器人学导论的概念和定理，描述机器人的历史机器人及其进化</li>
+  <li>掌握基本机电概念，应用于机器人平台开发</li>
+  <li>了解ARM微控制器的潜在用途，使用树莓派平台</li>
+  <li>了解ROS框架的潜在用途</li>
+  <li>掌握C/C++编程技能</li>
+  <li>了解传感器(如激光雷达、编码器、摄像头)和执行器(如用于机器人的伺服电机、步进电机、直流电机）</li>
+  <li>探索和应用网络和不同通信架构的概念机器人技术</li>
+  <li>探索并应用机器人技术中的人工智能概念</li>
+  <li>巩固在整个移动机器人设计模块中所学的概念</li>
+  <li>平台包括机电装配、低层和高层编程等人工智能</li>
+  <li>在竞争场景下验证移动机器人平台的设计</li>
+</ul>
+
+<p><a name="people"></a></p>
+
+<h2 id="适用人群">适用人群</h2>
+
+<ul>
+  <li>电子、软件专业大学生</li>
+  <li>RoboCup实体参赛选手</li>
+  <li>SLAM导航学习人员</li>
+  <li>机器人爱好者</li>
+  <li>机器人行业从业者</li>
+  <li>机器人和电子爱好者</li>
+  <li>电子专业、软件专业的学生</li>
+  <li>ROS基础的入门人员</li>
+  <li>树莓派爱好者</li>
+  <li>其他爱好者</li>
+</ul>
+
+<p><a name="prepare"></a></p>
+
+<h2 id="预备知识">预备知识</h2>
+
+<ul>
+  <li>熟悉linux操作系统、具有C++或Python编程基础</li>
+  <li>对ROS有一定的基础，在linux下跑过 http://wiki.ros.org/ROS/Tutorials 的初级教程</li>
+  <li>了解Linux操作系统的基本使用</li>
+  <li>所有的课程使用python和c++编写。如果你有编程的基本经验，但是使用的其他语言（c/javascript/shell等），你可能很快上手课程。</li>
+</ul>
+
+<p><a name="syllabus"></a></p>
+
+<h2 id="课程内容">课程内容</h2>
+
+<h3 id="part1-ros基础">Part1 ROS基础</h3>
+
+<p>在这一部分，您将了解到一个ROS应用是如何构建的，其文件组织结构和运行时结构；另外，您将了解ROS的通信机制，包含Master、Node、Topic、Service、Action等内容。学习完这一部分之后，您将能够构建简单的ROS应用。</p>
+
+<p>1.1 ROS的前世今生</p>
+
+<p>1.2 ROS文件层级概念</p>
+
+<p>1.3 ROS计算图级概念</p>
+
+<p>1.4 ROS 通信 - Topic</p>
+
+<p>1.5 ROS 通信 - Service</p>
+
+<p>1.6 ROS 通信 - Action</p>
+
+<p>1.7 ROS Launch文件介绍</p>
+
+<h3 id="part2">Part2</h3>
+
+<h3 id="part3">Part3</h3>
+
+<h3 id="part4">Part4</h3>
+
+<p><a name="contact"></a></p>
+
+<h2 id="课程硬件配置">课程硬件配置</h2>
+
+<p>本课程将用到以下的实训设备： Abel 移动机器人开发学习平台，激光雷达， PC（8GB内存以上，装有 Ubuntu16.04 系统、 ROS Kinetic、 RoboWare 机器人开发平台）</p>
+
+<h2 id="参与方式">参与方式</h2>
+
+<p>1、时间：2019年3月18日-3月24日</p>
+
+<p>2、地点：山东省济南市高新区奥盛大厦</p>
+
+<p>3、学习成本</p>
+
+<p>4600（元/人），自带电脑（按照要求提前安装学习开发环境），早鸟价：前10名每人优惠1000元（以缴费时间为准，先报先得），食宿自理</p>
+
+<p>4、课堂和学习方式</p>
+
+<ul>
+  <li>RoboSchool提供培训教材，集中培训，目标向导，完成特定任务；</li>
+  <li>RoboSchool提供培训实物实战智能导航底盘和六轴机械臂；</li>
+  <li>小组式学习，相互促进与监督学习；</li>
+  <li>专业助教支持，紧跟培训步伐；</li>
+  <li>颁发ROS培训结业证书；</li>
+</ul>
+
+<p>5、学习交流和报名方式</p>
+
+<p>添加微信号：18653154153 
+微信群： 
+QQ群：</p>
+
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <div class="footer-col-1 column">
+      <ul>
+        
+        <li>
+          <a href="https://github.com/tonyrobotics">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">tonyrobotics</span>
+          </a>
+        </li>
+       
+        <li>
+          <a href="mailto:info@tonyrobotics.com">info@tonyrobotics.com</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+        
+    </div>
+
+    <div class="footer-col-3 column">
+      
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- mathjax -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </body>
+</html>
