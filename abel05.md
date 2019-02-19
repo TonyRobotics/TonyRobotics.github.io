@@ -13,7 +13,7 @@ Abel05 采用二轮差速结构，搭载无线路由器、装有 ROS（ Robot Op
 
 Abel05 模块关系如图所示：
 
-![](/assets/img/abel05-models.png)
+<img src="/assets/img/abel05-models.png">
 
 ### 参考资料
 - [Abel05的开发手册](/assets/download/training-Abel05.pdf)
