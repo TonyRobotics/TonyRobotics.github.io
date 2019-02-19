@@ -16,5 +16,5 @@ Abel05 模块关系如图所示：
 <img src="/assets/img/abel05-models.png">
 
 ### 参考资料
-- [Abel05的开发手册](/assets/download/training-Abel05.pdf)
-- [RoboWare_Studio手册](/assets/download/RoboWare_Studio_Manual_1.2.0_CHS.pdf)
+- [Abel05的开发手册](https://tonyrobotics.github.io/assets/download/assets/download/training-Abel05.pdf)
+- [RoboWare_Studio手册](https://tonyrobotics.github.io/assets/download/RoboWare_Studio_Manual_1.2.0_CHS.pdf)
