@@ -127,10 +127,9 @@ permalink: /
 
 微信群
 
-<img src="assets/img/wechat.jpg" width="200" hegiht="200" align=center />
+<img src="assets/img/wechat.jpg" width="200">
 
 
 QQ群
 
-<img src="assets/img/ros2019.jpg" width="200" hegiht="200" align=center />
-
+<img src="assets/img/ros2019.jpg" width="200">
