@@ -95,6 +95,8 @@ permalink: /
 
 ### Part4
 
+具体的课程安排，请点击： [课程安排](schedule/)
+
 <a name='contact'></a>
 
 ## 课程硬件配置
