@@ -68,7 +68,7 @@ permalink: /
 
 <a name='syllabus'></a>
 
-## 课程内容
+## 课程大纲
 
 ### Part1 ROS基础
 
