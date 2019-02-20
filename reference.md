@@ -32,3 +32,8 @@ title: 参考资料
 ## 高斯机械臂
 
 - [gauss](https://github.com/TonyRobotics/gauss)
+
+### ROS大会汤尼机器人直播视频：
+
+- [ROS Con 2018视频集](https://www.bilibili.com/video/av33885949)
+- [ROS-Industrial Conference 2018 视频集](https://www.bilibili.com/video/av41235920)

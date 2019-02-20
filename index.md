@@ -113,9 +113,14 @@ permalink: /
 
 <a name='contact'></a>
 
+## 往期培训
+
+- [2019全国高校ROS智能机器人师资研修班](https://mp.weixin.qq.com/s?__biz=MzU4NzE2NzI3Mg==&mid=2247484205&idx=2&sn=2520df11df8e1eb25824b26795ef82d0&chksm=fdf1606aca86e97cbe3fbefb06dbf4e657ff410c4e693d2ece9efc4f22a242ae8d2caccc0749&mpshare=1&scene=1&srcid=0219XwK4iftSgIGRUxkZhxPK&pass_ticket=9LXrQGLaUIYttEGwjtDvEmN%2FLOpiKBh%2BIx68%2Ft5eTkLd4syhHL%2FQI4%2B4lEQCDvCG#rd)
+
 ## 课程硬件配置
 
-本课程将用到以下的实训设备：
+本课程将用到以下的硬件设备：
+
 - [Abel05](abel05/) 移动机器人开发学习平台、激光雷达 
 - PC（自备，8GB内存以上，装有 Ubuntu16.04 系统、 ROS Kinetic、 RoboWare 机器人开发平台）
 
