@@ -9,7 +9,6 @@ RoboSchool由汤尼机器人主办，已举办了多届ROS培训，得到广大�
 
 RoboSchool作为在国内专业的ROS培训平台，不仅仅为ROS学习者和研究者提供完善、体系化的ROS培训课程，还有国际上最新的ROS相关的前沿信息和技术分享，为广大学习者和研究者提供学习的框架，指引长远的学习方向。本次培训针对从事机器人领域相关的学习者、开发者和爱好者，深入浅出讲授ROS操作系统及机器人系统开发，以及结合实物，达到对机器人本体的系统性学习与开发。
 
-
 ### ROS大会汤尼机器人直播视频：
 
 - [ROS Con 2018视频集](https://www.bilibili.com/video/av33885949)
@@ -26,12 +25,12 @@ RoboSchool作为在国内专业的ROS培训平台，不仅仅为ROS学习者和�
 <img src="assets/img/RoboWare.jpg" width="200" hegiht="200"/>
 
 ## 本期训练营交流群
-<img src="assets/img/ros2019.jpg" width="200" hegiht="200" align=center />
+
+微信群
+
+<img src="assets/img/wechat.jpg" width="200">
 
 
+QQ群
 
-
-
-
-
-
+<img src="assets/img/ros2019.jpg" width="200">
