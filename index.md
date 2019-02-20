@@ -14,7 +14,7 @@ permalink: /
 
 ## 课程介绍
 
-本课程旨在帮助您学习机器人操作系统（ [Robot Operating System](http://wiki.ros.org/)，以下简称ROS）。本课程可以帮助学员排除使用开发ROS导航功能包的算法外的困难，理清建图定位导航的原理与关系，掌握移动机器人发展趋势及关键技术，以及学会如何解决移动机器人开发相关问题。
+[本课程](https://github.com/TonyRobotics/TonyRobotics.github.io/blob/master/Readme.md)旨在帮助您学习机器人操作系统（ [Robot Operating System](http://wiki.ros.org/)，以下简称ROS）。本课程可以帮助学员排除使用开发ROS导航功能包的算法外的困难，理清建图定位导航的原理与关系，掌握移动机器人发展趋势及关键技术，以及学会如何解决移动机器人开发相关问题。
 
 课程注重知识点的连贯性，从ROS安装开始，深入讲解了ROS C++客户端，tf，仿真，传感器，以及自主导航，建图。
 
