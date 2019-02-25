@@ -4,11 +4,13 @@ permalink: /
 ---
 
 - [课程介绍](#intro)
+- [课程目标](#goals)
 - [适用人群](#people)
-- [预备知识](#prepare)
-- [学习目标](#goals)
+- [课程须知](#prepare)
 - [课程大纲](#syllabus)
-- [培训安排](#contact)
+- [往期培训](#older)
+- [课程硬件配置](#hardware)
+- [参与方式](#contact)
 
 <a name='intro'></a>
 
