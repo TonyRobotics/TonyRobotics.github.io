@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /
+title: ROS精英训练营—RoboSchool
 ---
 
 - [课程介绍](#intro)
