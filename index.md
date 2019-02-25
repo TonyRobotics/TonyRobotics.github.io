@@ -131,6 +131,8 @@ title: ROS精英训练营—RoboSchool
 - [Abel05](abel05/) 移动机器人开发学习平台、激光雷达 
 - PC（自备，8GB内存以上，装有 Ubuntu16.04 系统、 ROS Kinetic、 RoboWare 机器人开发平台）
 
+<a name='contact'></a>
+
 ## 参与方式
 
 1、时间：2019年3月18日-3月24日
