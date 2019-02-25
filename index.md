@@ -9,7 +9,7 @@ permalink: /
 - [课程须知](#prepare)
 - [课程大纲](#syllabus)
 - [往期培训](#older)
-- [课程硬件配置](#hardware)
+- [硬件配置](#hardware)
 - [参与方式](#contact)
 
 <a name='intro'></a>
@@ -121,7 +121,7 @@ permalink: /
 
 - [2019全国高校ROS智能机器人师资研修班](https://mp.weixin.qq.com/s?__biz=MzU4NzE2NzI3Mg==&mid=2247484205&idx=2&sn=2520df11df8e1eb25824b26795ef82d0&chksm=fdf1606aca86e97cbe3fbefb06dbf4e657ff410c4e693d2ece9efc4f22a242ae8d2caccc0749&mpshare=1&scene=1&srcid=0219XwK4iftSgIGRUxkZhxPK&pass_ticket=9LXrQGLaUIYttEGwjtDvEmN%2FLOpiKBh%2BIx68%2Ft5eTkLd4syhHL%2FQI4%2B4lEQCDvCG#rd)
 
-## 课程硬件配置
+## 硬件配置
 
 本课程将用到以下的硬件设备：
 
