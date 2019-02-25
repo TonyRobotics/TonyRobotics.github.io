@@ -1,7 +1,7 @@
 # Site settings
-title: 人工智能精英训练营——玩转移动机器人
+title: ROS精英训练营—RoboSchool
 email: info@tonyrobotics.com
-description: "Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition."
+description: "ROS精英训练营—RoboSchool"
 baseurl: "https://tonyrobotics.github.io"
 url: "https://tonyrobotics.github.io"
 github_username:  tonyrobotics
